@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Ignore environment variables (if you use them)
+.env
+.env.local
+.env.*.local
+
+# Ignore lock file (optional, but recommended if using npm)
+package-lock.json
+
+# Ignore ESLint cache (if used)
+.eslintcache
+
+# Ignore Tailwind output (optional)
+tailwind.config.js
+
+# Ignore Vite build output (already present but ensure it's there)
+dist/
